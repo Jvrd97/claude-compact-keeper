@@ -37,7 +37,7 @@ Read it when a detail is missing from the summary.
 
 After a compaction Claude "forgets everything": the summary drops the goal, the constraints you set, the decisions and the file paths, and the conversation before it can't be viewed again.
 
-- GitHub: [#17428](https://github.com/anthropics/claude-code/issues/17428), [#27242](https://github.com/anthropics/claude-code/issues/27242) and [#7530](https://github.com/anthropics/claude-code/issues/7530), together about 811 👍 and 996 comments.
+- GitHub: [#17428](https://github.com/anthropics/claude-code/issues/17428), [#27242](https://github.com/anthropics/claude-code/issues/27242) and [#7530](https://github.com/anthropics/claude-code/issues/7530), together about 280 👍 and 200 comments (checked 2026-10-06).
 - Reddit: [compacting a 900k session](https://www.reddit.com/r/ClaudeAI/comments/1v9bq96/) (1.1k upvotes) and [a second thread](https://www.reddit.com/r/ClaudeAI/comments/1r06z4r/).
 - Hacker News: [the discussion](https://news.ycombinator.com/item?id=46426624).
 
