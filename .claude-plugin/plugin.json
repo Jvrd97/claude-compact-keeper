@@ -1,0 +1,36 @@
+{
+  "name": "compact-keeper",
+  "version": "0.1.0",
+  "description": "Compaction without amnesia: the summarizer is told to keep your goal, constraints, decisions and paths verbatim, a card with your goal, prompts, pinned notes, edited files and open todos follows the summary, and the full transcript before compaction is archived as markdown.",
+  "author": { "name": "Daniil Bystrov", "url": "https://github.com/Jvrd97" },
+  "homepage": "https://github.com/Jvrd97/claude-compact-keeper",
+  "repository": "https://github.com/Jvrd97/claude-compact-keeper",
+  "license": "MIT",
+  "keywords": ["mod", "compaction", "compact", "context", "memory", "transcript"],
+  "userConfig": {
+    "archive": {
+      "type": "boolean",
+      "title": "Archive the transcript",
+      "description": "Before each compaction's result is installed, write the conversation so far as markdown to the archive folder.",
+      "default": true
+    },
+    "archiveDir": {
+      "type": "string",
+      "title": "Archive folder",
+      "description": "Where archives go; ~ is your home. Empty means ~/.claude/compact-keeper. Each file lands under <project>/<session-id>/.",
+      "default": ""
+    },
+    "maxPrompts": {
+      "type": "number",
+      "title": "Prompts to keep",
+      "description": "How many of your latest prompts the card carries across compaction. 0 keeps none.",
+      "default": 20
+    },
+    "instructions": {
+      "type": "string",
+      "title": "Extra summary instructions",
+      "description": "Appended to what the summarizer is told on every compaction, after the mod's own instructions.",
+      "default": ""
+    }
+  }
+}

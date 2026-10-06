@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "compact-keeper",
+  "description": "compact-keeper: compaction that keeps your goal, constraints, files and history",
+  "owner": { "name": "Daniil Bystrov", "url": "https://github.com/Jvrd97" },
+  "plugins": [
+    {
+      "name": "compact-keeper",
+      "description": "Keep the goal, your prompts, pinned notes, edited files and open todos across compaction, and archive the transcript before it as markdown.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Jvrd97/claude-compact-keeper"
+    }
+  ]
+}
